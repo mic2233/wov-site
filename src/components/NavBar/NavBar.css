@@ -1,0 +1,42 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;          /* fills the window */
+  height: 71px;
+  display: flex;
+  align-items: center;
+  padding-inline: 2rem;
+}
+
+.voxlogo {
+  height: 40px;         /* scale the logo */
+  width: auto;
+  margin-left:12px;
+}
+.menu {
+  display: flex;
+  gap: 5rem;        /* space between items */
+  margin-left: auto;  /* pushes links to the right of the logo */
+  list-style: none;
+  padding: 0;
+  margin-right:110px;
+
+}
+
+/* individual link */
+.menu a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #010000;
+  transition: text-decoration 0.15s ease;
+}
+
+.menu a:hover {
+  text-decoration: none;
+}
