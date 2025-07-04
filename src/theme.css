@@ -3,38 +3,79 @@ html, body, #root {
   margin: 0;          /* always reset the default 8 px gap */
   width: 100%;
   height: 100%;
-scrollbar-width: none;    
-    align-items: center;
+  scrollbar-width: none;    
+  align-items: center;
 
 }
 
 /* 2.  Full-screen gradient panel */
 .main-page {         /*  ←  EXACT same spelling you’ll use in JSX  */
-  position: relative;
+    position: relative;
 
-  width: 100%;       /* spans full window width        */
-  min-height: 100vh; /* at least one full window tall  */
-  /* or 100dvh if you want to dodge iOS address-bar shrinkage */
+    width: 100%;       /* spans full window width        */
+    min-height: 100vh; /* at least one full window tall  */
+    /* or 100dvh if you want to dodge iOS address-bar shrinkage */
 
-  background: linear-gradient(180deg, #DEDDDD 0%, #E9E9E9 100%);
-}
+    background: linear-gradient(180deg, #DEDDDD 0%, #E9E9E9 100%);
+  }
 
 .backgroundframe{
-position: absolute;
-width: 100%;
-height: 100%;
-left: 0px;
-top: 71px;
-background: linear-gradient(180deg, rgba(247, 129, 32, 0.08) 0%, rgba(132, 60, 0, 0.0472) 100%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 71px;
+  background: linear-gradient(180deg, rgba(247, 129, 32, 0.08) 0%, rgba(132, 60, 0, 0.0472) 100%);
 }
 
 .videoframe{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: 165px;
+}
 
-position: absolute;
-width: 100%;
-height: auto;
-left: 0px;
-top: 165px;
+/* Social-Media-Icons-Frame */
+.socialiconsframe{
+  position: absolute;      /* keeps the bar 432 px below the hero */
+  top: 450px;
+  left: 0;
+  width: 100%;
+  height: 70px;
 
+  display: flex;           /* turn children into a flex row      */
+  justify-content: center; /* ← centres row horizontally         */
+  align-items: center;     /* ← centres row vertically in 70 px  */
+  gap: 3.5rem;               /* space between icons                */
 
+}
+
+.iconposition{
+  width:40px;
+  opacity: 80%;
+}
+
+.wovnameframe {
+  position: absolute;        /* still sits 550 px below the hero */
+  top: 550px;
+  left: 0;
+  width: 100%;
+  height: 91px;
+
+  display: flex;             /* centre child text */
+  justify-content: center;   /* ↔ centre horizontally */
+  align-items:   center;     /* ↕ centre vertically   */
+}
+
+/* outlined text ---------------------------------------------- */
+.wovnameposition {
+  font: 400 64px 'Karla', sans-serif;
+  letter-spacing: .07em;
+  opacity: 80%;
+  color: white;                 /* fill */
+  -webkit-text-stroke: 3px white;     /* outline */
+  /* text-stroke: 1px #fff8;      Safari 17+ */
+
+  white-space: nowrap;                /* never wrap */
 }
