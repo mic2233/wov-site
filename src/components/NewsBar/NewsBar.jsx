@@ -20,7 +20,14 @@ function NewsBar() {
         <img className="starlogo" src={star} alt="star" />
 
         <div className="newstext">NEW SINGLE_</div>
-
+        <img className="starlogo" src={star} alt="star" />
+        
+        <div className="newstext">NEW SINGLE_</div>
+        <img className="starlogo" src={star} alt="star" />
+        <div className="newstext">NEW SINGLE_</div>
+        <img className="starlogo" src={star} alt="star" />
+        <div className="newstext">NEW SINGLE_</div>
+        <img className="starlogo" src={star} alt="star" />
       </div>
     </>
   )

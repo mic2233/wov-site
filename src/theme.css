@@ -3,7 +3,9 @@ html, body, #root {
   margin: 0;          /* always reset the default 8 px gap */
   width: 100%;
   height: 100%;
-  overflow: hidden;   /* pick the rule that matches your goal */
+scrollbar-width: none;    
+    align-items: center;
+
 }
 
 /* 2.  Full-screen gradient panel */
@@ -15,7 +17,6 @@ html, body, #root {
   /* or 100dvh if you want to dodge iOS address-bar shrinkage */
 
   background: linear-gradient(180deg, #DEDDDD 0%, #E9E9E9 100%);
-  box-shadow: 0 4px 4px rgba(0,0,0,.25);
 }
 
 .backgroundframe{
@@ -31,7 +32,7 @@ background: linear-gradient(180deg, rgba(247, 129, 32, 0.08) 0%, rgba(132, 60, 0
 
 position: absolute;
 width: 100%;
-height: 100%;
+height: auto;
 left: 0px;
 top: 165px;
 
