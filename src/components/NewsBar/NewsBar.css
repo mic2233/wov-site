@@ -35,5 +35,6 @@ overflow: visible;
 .newsbar img {
   height: 36px;                /* scale to match text height    */
   width: auto;
-  margin-right:15px;
+  margin-right:10px;
+  margin-left:10px;
 }

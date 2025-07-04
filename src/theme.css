@@ -17,3 +17,23 @@ html, body, #root {
   background: linear-gradient(180deg, #DEDDDD 0%, #E9E9E9 100%);
   box-shadow: 0 4px 4px rgba(0,0,0,.25);
 }
+
+.backgroundframe{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 71px;
+background: linear-gradient(180deg, rgba(247, 129, 32, 0.08) 0%, rgba(132, 60, 0, 0.0472) 100%);
+}
+
+.videoframe{
+
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 165px;
+
+
+}

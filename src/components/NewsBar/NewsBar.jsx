@@ -8,16 +8,16 @@ function NewsBar() {
     <>
       <div className="newsbar">
         <div className="newstext">NEW SINGLE_</div>
-        <img className="voxlogo" src={star} alt="star" />
+        <img className="starlogo" src={star} alt="star" />
 
         <div className="newstext">NEW SINGLE_</div>
-        <img className="voxlogo" src={star} alt="star" />
+        <img className="starlogo" src={star} alt="star" />
 
         <div className="newstext">NEW SINGLE_</div>
-        <img className="voxlogo" src={star} alt="star" />
+        <img className="starlogo" src={star} alt="star" />
 
         <div className="newstext">NEW SINGLE_</div>
-        <img className="voxlogo" src={star} alt="star" />
+        <img className="starlogo" src={star} alt="star" />
 
         <div className="newstext">NEW SINGLE_</div>
 
