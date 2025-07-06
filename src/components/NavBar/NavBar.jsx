@@ -12,7 +12,13 @@ function NavBar() {
           <li><a href="#bio">Bio</a></li>
           <li><a href="#music">Music</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#shop">Shop</a></li>
+          <li>  <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="tooltip tooltip-bottom" 
+                data-tip="Coming Soon !"
+                
+              >Shop</a></li>
           <li><a href="#videos">Music Videos</a></li>
         </ul>
       </div>

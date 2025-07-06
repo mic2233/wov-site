@@ -40,7 +40,7 @@ overflow: visible;
   color: transparent;                 
   -webkit-text-stroke: 1px #000;     
         white-space: nowrap; 
-
+  
 }
 .newsbar:hover{
   text-decoration: underline;

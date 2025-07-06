@@ -35,8 +35,13 @@ function App() {
   <a href="https://www.linkedin.com/in/michal-baszczyk/" target="_blank" rel="noopener noreferrer">
     <img className="icon" src={linkedin}   alt="LinkedIn"  />
   </a>
-    <a target="_blank" rel="noopener noreferrer">
-    <img className="icon" src={spotify}   alt="spotify"  />
+  <a
+    target="_blank"
+    rel="noopener noreferrer"
+    className="tooltip"
+    data-tip="Soon on Spotify!"
+  >
+    <img src={spotify} alt="Spotify" className="icon" />
   </a>
       </div>
       <div className="wovnameframe">
