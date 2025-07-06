@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './theme.css'
-import video from './assets/Guitar_bg.png'
-import facebook from './assets/facebook.svg'
+import video from './assets/bacground-video.mov'
+import spotify from './assets/spotify.svg'
 import instagram from './assets/instagram.svg'
 import soundcloud from './assets/soundcloud.svg'
 import youtube from './assets/youtube.svg'
@@ -13,13 +13,31 @@ function App() {
 
     <div className="main-page">
       <div className="backgroundframe"></div>
-      <img className="videoframe" src={video} alt="vid" /> 
+      <video
+        className="videoframe"
+        src={video}
+        autoPlay
+        muted
+        loop
+        playsInline
+      />
       <div className="socialiconsframe">
-        <img className="iconposition" src={instagram} alt="ico" /> 
-        <img className="iconposition" src={facebook} alt="ico" /> 
-        <img className="iconposition" src={soundcloud} alt="ico" /> 
-        <img className="iconposition" src={youtube} alt="ico" /> 
-        <img className="iconposition" src={linkedin} alt="ico" /> 
+
+
+  <a href="https://soundcloud.com/wolfbard_of_veles"      target="_blank" rel="noopener noreferrer">
+    <img className="icon" src={soundcloud} alt="SoundCloud" />
+  </a>
+
+  <a href="https://www.youtube.com/@Wolfbard_Of_Veles"    target="_blank" rel="noopener noreferrer">
+    <img className="icon" src={youtube}    alt="YouTube"   />
+  </a>
+
+  <a href="https://www.linkedin.com/in/michal-baszczyk/" target="_blank" rel="noopener noreferrer">
+    <img className="icon" src={linkedin}   alt="LinkedIn"  />
+  </a>
+    <a target="_blank" rel="noopener noreferrer">
+    <img className="icon" src={spotify}   alt="spotify"  />
+  </a>
       </div>
       <div className="wovnameframe">
         <div className="wovnameposition" >Wolfbard of Veles</div>

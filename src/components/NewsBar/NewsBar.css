@@ -1,24 +1,35 @@
 .newsbar {
   position: absolute;          /* sticks it just under the nav */
-  top: 71px;
+  top: 50px;
   left: 0;
   width: 100%;
-  height: 94px;
-
+  height: 90px;
+user-select: none;
   display: flex;               /* lay children in a row        */
   align-items: center;         /* vertical-centre them          */
   gap: 0.1rem;                 /* space between text and star   */
-
   padding-inline: 18px;        /* 18 px matches the Figma inset */
   box-sizing: border-box;      /* keeps padding inside the 94 px */
 }
-
+.ticker{
+  display:inline-flex;
+  white-space:wrap;
+}
+@keyframes slide{
+  0%   { transform:translateX(0); }
+  100% { transform:translateX(-100%); }
+}
+.scroll{
+  display:inline-flex;   /* so gap works inside the strip      */
+  gap:.8rem;
+  animation:slide 20s linear infinite;
+}
 /* label “NEW SINGLE_” */
 .newstext {
 /* NEW SINGLE_ */
 overflow: visible;
   font-family: 'Actor', sans-serif;
-  font-size: 36px;
+  font-size: 28px;
   letter-spacing: .02em;
 
   /* the magic */
@@ -26,11 +37,29 @@ overflow: visible;
   -webkit-text-stroke: 1px #000;     
         white-space: nowrap; 
 
-
-
+}
+.newsbar:hover{
+  text-decoration: underline;
 
 }
 
+.newsbar::after{
+  content:'';
+  position:absolute;
+  left:0; right:0;
+  bottom:3px;          /* sits 6 px below the bar */
+  height:5px;
+background: #833AB4;
+background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  transform:scaleX(0);  /* collapsed */
+  transform-origin:left center;
+  transition:transform .35s ease-out;
+}
+
+/* hover – slide in */
+.newsbar:hover::after{
+  transform:scaleX(1);  /* full width */
+}
 /* star icon */
 .newsbar img {
   height: 36px;                /* scale to match text height    */

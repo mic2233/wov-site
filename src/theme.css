@@ -5,6 +5,9 @@ html, body, #root {
   height: 100%;
   scrollbar-width: none;    
   align-items: center;
+  overflow-y: hidden; /* ← blocks wheel, touch-scroll, keyboard scroll */
+
+  overflow-x: hidden; /* ← blocks wheel, touch-scroll, keyboard scroll */
 
 }
 
@@ -13,7 +16,7 @@ html, body, #root {
     position: relative;
 
     width: 100%;       /* spans full window width        */
-    min-height: 100vh; /* at least one full window tall  */
+    min-height: 90vh; /* at least one full window tall  */
     /* or 100dvh if you want to dodge iOS address-bar shrinkage */
 
     background: linear-gradient(180deg, #DEDDDD 0%, #E9E9E9 100%);
@@ -24,7 +27,7 @@ html, body, #root {
   width: 100%;
   height: 100%;
   left: 0px;
-  top: 71px;
+  top: 51px;
   background: linear-gradient(180deg, rgba(247, 129, 32, 0.08) 0%, rgba(132, 60, 0, 0.0472) 100%);
 }
 
@@ -33,32 +36,32 @@ html, body, #root {
   width: 100%;
   height: auto;
   left: 0px;
-  top: 165px;
+  top: 135px;
+  /* opacity:95%; */
 }
 
 /* Social-Media-Icons-Frame */
 .socialiconsframe{
   position: absolute;      /* keeps the bar 432 px below the hero */
-  top: 450px;
+  top: 310px;
   left: 0;
   width: 100%;
   height: 70px;
-
   display: flex;           /* turn children into a flex row      */
   justify-content: center; /* ← centres row horizontally         */
   align-items: center;     /* ← centres row vertically in 70 px  */
   gap: 3.5rem;               /* space between icons                */
-
+  
 }
 
-.iconposition{
-  width:40px;
-  opacity: 80%;
+.icon{
+  width:30px;
+  opacity:.65;
 }
 
 .wovnameframe {
   position: absolute;        /* still sits 550 px below the hero */
-  top: 550px;
+  top: 420px;
   left: 0;
   width: 100%;
   height: 91px;
@@ -66,15 +69,16 @@ html, body, #root {
   display: flex;             /* centre child text */
   justify-content: center;   /* ↔ centre horizontally */
   align-items:   center;     /* ↕ centre vertically   */
+
 }
 
 /* outlined text ---------------------------------------------- */
 .wovnameposition {
   font: 400 64px 'Karla', sans-serif;
   letter-spacing: .07em;
-  opacity: 80%;
-  color: white;                 /* fill */
-  -webkit-text-stroke: 3px white;     /* outline */
+  opacity: 90%;
+  color: #DEDDDD;                 /* fill */
+  -webkit-text-stroke: 3px #DEDDDD;     /* outline */
   /* text-stroke: 1px #fff8;      Safari 17+ */
 
   white-space: nowrap;                /* never wrap */

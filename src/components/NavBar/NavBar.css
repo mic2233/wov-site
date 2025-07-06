@@ -3,16 +3,17 @@
   top: 0;
   left: 0;
   width: 100%;          /* fills the window */
-  height: 71px;
+  height: 51px;
   display: flex;
   align-items: center;
   padding-inline: 2rem;
+  
 }
 
 .voxlogo {
-  height: 40px;         /* scale the logo */
+  height: 35px;         /* scale the logo */
   width: auto;
-  margin-left:12px;
+  margin-left:0px;
 }
 .menu {
   display: flex;
