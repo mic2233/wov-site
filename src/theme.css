@@ -1,4 +1,5 @@
 /* 1.  Reset the canvas */
+@import "tailwindcss";
 html, body, #root {
   margin: 0;          /* always reset the default 8 px gap */
   width: 100%;
