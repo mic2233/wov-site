@@ -1,5 +1,6 @@
 /* 1.  Reset the canvas */
 @import "tailwindcss";
+@plugin "daisyui";
 html, body, #root {
   margin: 0;          /* always reset the default 8 px gap */
   width: 100%;
@@ -28,7 +29,7 @@ html, body, #root {
   width: 100%;
   height: 100%;
   left: 0px;
-  top: 51px;
+  top: 50px;
   background: linear-gradient(180deg, rgba(247, 129, 32, 0.08) 0%, rgba(132, 60, 0, 0.0472) 100%);
 }
 
@@ -37,14 +38,14 @@ html, body, #root {
   width: 100%;
   height: auto;
   left: 0px;
-  top: 135px;
+  top: 125px;
   /* opacity:95%; */
 }
 
 /* Social-Media-Icons-Frame */
 .socialiconsframe{
   position: absolute;      /* keeps the bar 432 px below the hero */
-  top: 310px;
+  top: 320px;
   left: 0;
   width: 100%;
   height: 70px;
@@ -62,7 +63,7 @@ html, body, #root {
 
 .wovnameframe {
   position: absolute;        /* still sits 550 px below the hero */
-  top: 420px;
+  top: 430px;
   left: 0;
   width: 100%;
   height: 91px;
@@ -70,7 +71,7 @@ html, body, #root {
   display: flex;             /* centre child text */
   justify-content: center;   /* ↔ centre horizontally */
   align-items:   center;     /* ↕ centre vertically   */
-
+pointer-events: none; 
 }
 
 /* outlined text ---------------------------------------------- */

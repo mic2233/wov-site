@@ -1,8 +1,9 @@
 .newsbar{
   position:absolute;
-  top:50px; left:0;
-  width:100%; height:90px;
-  display:flex; align-items:center;
+  top:40px; left:0;
+  width:100%; height:95px;
+  display:flex; 
+  align-items:center;
   overflow:hidden;              /* clip anything that slides out */
   user-select:none;
   padding-inline:18px;
@@ -43,14 +44,14 @@ overflow: visible;
 }
 .newsbar:hover{
   text-decoration: underline;
-
+text-decoration-color: #000; 
 }
 
 .newsbar::after{
   content:'';
   position:absolute;
   left:0; right:0;
-  bottom:3px;          /* sits 6 px below the bar */
+  bottom:5px;          /* sits 6 px below the bar */
   height:5px;
 background: #833AB4;
 background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);

@@ -6,8 +6,12 @@ function NewsBar() {
 
   return (
     <>
-      <div className="newsbar">
-        <div className="ticker">
+<a
+  href="https://www.youtube.com/watch?v=Y7peh2X1FPU"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="newsbar"
+>        <div className="ticker">
         <span className="scroll">
           <div className="newstext">NEW SINGLE</div>
           <img className="starlogo" src={star}alt="star" />
@@ -42,7 +46,7 @@ function NewsBar() {
         </span>
         </div>
       
-      </div>
+      </a>
     </>
   )
 }

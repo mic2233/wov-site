@@ -8,7 +8,7 @@ function NavBar() {
     <>
       <div className="navbar">
         <img className="voxlogo" src={logo} alt="Wolfbard logo" />
-        <ul className="menu">
+        <ul className="menu menu-horizontal">
           <li><a href="#bio">Bio</a></li>
           <li><a href="#music">Music</a></li>
           <li><a href="#contact">Contact</a></li>
