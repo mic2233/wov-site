@@ -1,6 +1,6 @@
 # WoV Site 🐺🎸
 
-Single-page website for **Wolfbard of Veles**, built with **React 18 + Vite, and daisyUI** and deployed via **GitHub Pages**.
+Single-page website for **Wolfbard of Veles**, built with **React 18 + Vite, daisyUI** and deployed via **GitHub Pages**.
 
 ## Quick start
 
