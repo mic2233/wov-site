@@ -21,7 +21,6 @@ html, body, #root {
     min-height: 90vh; /* at least one full window tall  */
     /* or 100dvh if you want to dodge iOS address-bar shrinkage */
 
-    background: linear-gradient(180deg, #DEDDDD 0%, #E9E9E9 100%);
   }
 
 .backgroundframe{
@@ -38,7 +37,7 @@ html, body, #root {
   width: 100%;
   height: auto;
   left: 0px;
-  top: 125px;
+  top: 100px;
 pointer-events: none; 
 }
 

@@ -27,6 +27,22 @@ function NewsBar() {
           <img className="starlogo" src={star}alt="star" />
           <div className="newstext">NEW SINGLE</div>
           <img className="starlogo" src={star}alt="star" />
+                    <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+                    <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
         </span>
           <span className="scroll" aria-hidden="true" >
           <div className="newstext">NEW SINGLE</div>
@@ -42,6 +58,22 @@ function NewsBar() {
           <div className="newstext">NEW SINGLE</div>
           <img className="starlogo" src={star}alt="star" />
           <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+                    <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+          <div className="newstext">NEW SINGLE</div>
+          <img className="starlogo" src={star}alt="star" />
+                    <div className="newstext">NEW SINGLE</div>
           <img className="starlogo" src={star}alt="star" />
         </span>
         </div>

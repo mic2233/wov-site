@@ -3,12 +3,15 @@
   top: 0;
   left: 0;
   width: 100%;          /* fills the window */
-  height: 51px;
+  height: 41px;
   display: flex;
   align-items: center;
   padding-inline: 2rem;
   min-height: 10px; 
+background: #ffffff;
+
 }
+
 
 .voxlogo {
   height: 30px;
@@ -17,7 +20,7 @@
 }
 .menu {
   display: flex;
-  gap: 5rem;        /* space between items */
+  gap: 3rem;        /* space between items */
   margin-left: auto;  /* pushes links to the right of the logo */
   list-style: none;
   padding: 0;
@@ -40,4 +43,10 @@
 
 .menu a:hover {
   text-decoration: none;
+  
 }
+.menu a:active {
+   color: black !important;
+   background: white;
+}
+
