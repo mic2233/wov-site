@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './theme.css'
-import video from './assets/bacground-video.mov'
+import video from './assets/bacground-video_medium.mp4'
 import spotify from './assets/spotify.svg'
 import instagram from './assets/instagram.svg'
 import soundcloud from './assets/soundcloud.svg'
