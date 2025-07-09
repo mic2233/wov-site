@@ -28,12 +28,16 @@ function App() {
     <img className="icon" src={soundcloud} alt="SoundCloud" />
   </a>
 
-  <a href="https://www.youtube.com/@Wolfbard_Of_Veles"    target="_blank" rel="noopener noreferrer">
-    <img className="icon" src={youtube}    alt="YouTube"   />
+  <a href="https://www.instagram.com/wolfbard_of_veles/"    target="_blank" rel="noopener noreferrer">
+    <img className="icon" src={instagram}    alt="instagram"   />
   </a>
 
   <a href="https://www.linkedin.com/in/michal-baszczyk/" target="_blank" rel="noopener noreferrer">
     <img className="icon" src={linkedin}   alt="LinkedIn"  />
+  </a>
+  
+  <a href="https://www.youtube.com/@Wolfbard_Of_Veles" target="_blank" rel="noopener noreferrer">
+    <img className="icon" src={youtube}   alt="youtube"  />
   </a>
   <a
     target="_blank"
