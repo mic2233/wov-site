@@ -38,7 +38,6 @@ background: #ffffff;
   text-decoration: underline;
   color: #010000;
   transition: text-decoration 0.15s ease;
-    border:none;
 
 }
 
@@ -49,5 +48,29 @@ background: #ffffff;
 .menu a:active {
    color: black !important;
    background: white;
+   
 }
 
+.card-title {
+
+
+    /* keeps the four words in a column without extra gaps */
+    display: block;
+    font-weight: 900;
+    letter-spacing: .12em;
+    /* responsive font size: 2.5 rem → 6.5 rem */
+    font-size: 60px;
+    color: var(--deep-blue);
+background: linear-gradient(90deg,rgb(211, 211, 211) 10%, rgb(42, 3, 80) 50%, rgb(146, 28, 28) 80%);
+    -webkit-background-clip: text;   /* Safari/iOS */
+    background-clip: text;
+    color: transparent;
+    opacity:80%;
+  }
+ .bio-picture{
+      border-radius: 1.4rem;
+    overflow: hidden;
+ }
+ .bio-text{
+  color:#e6e6e6
+ }
