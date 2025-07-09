@@ -32,13 +32,15 @@ html, body, #root {
   background: linear-gradient(180deg, rgba(247, 129, 32, 0.08) 0%, rgba(132, 60, 0, 0.0472) 100%);
 }
 
-.videoframe{
-  position: absolute;
-  width: 100%;
-  height: auto;
-  left: 0px;
-  top: 100px;
-pointer-events: none; 
+.videoframe {
+  position: fixed;          /* stick to the viewport and ignore scroll */
+  inset: 0;                 /* shorthand for top/right/bottom/left: 0 */
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;        /* fills the box, preserves aspect ratio */
+  object-position: center;  /* keeps the video centred while cropping */
+  pointer-events: none;     /* don’t block clicks on content */
+  z-index: -1;              /* sit behind the rest of the page */
 }
 
 /* Social-Media-Icons-Frame */
