@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './NavBar.css'
 import logo from '../../assets/WOV_logo.PNG'
+import bio_logo from '../../assets/Wolfbard_of_veles_main_pic.png'
+
 function NavBar() {
   const [count, setCount] = useState(0)
 
@@ -18,7 +20,7 @@ function NavBar() {
               <div className="card card-side  ">
                 <figure className="pl-2 pt-2 ml-5 mt-3 mb-5">
                   <img
-                    src="wov-site\src\assets\Wolfbard_of_veles_main_pic.png"
+                    src={bio_logo}
                     alt="Album cover"
                     className=" bio-picture opacity-90 w-110 h-110 object-cover rounded-lg mask-16"
                   />
@@ -40,7 +42,6 @@ function NavBar() {
           </li>
           <li> <a tabindex="0" role="button" className="btn btn-xs btn-ghost hover:bg-transparent m-1"  > Music</a></li>
           <li> <a tabindex="0" role="button" className="btn btn-xs btn-ghost hover:bg-transparent m-1"  > Contact</a></li>
-          <li> <a tabindex="0" role="button" className="btn btn-xs btn-ghost hover:bg-transparent m-1"  > Shop</a></li>
           <li> <a tabindex="0" role="button" className="btn btn-xs btn-ghost hover:bg-transparent m-1 tooltip tooltip-bottom"
             target="_blank"
             rel="noopener noreferrer"
