@@ -9,7 +9,6 @@
   padding-inline: 2rem;
   min-height: 10px; 
 background: #ffffff;
-
 }
 
 
@@ -39,6 +38,8 @@ background: #ffffff;
   text-decoration: underline;
   color: #010000;
   transition: text-decoration 0.15s ease;
+    border:none;
+
 }
 
 .menu a:hover {
